@@ -308,7 +308,10 @@
         </main>
         <footer class="footer">
             <div class="footer__logo-box">
-                <img src="img/logo-green-2x.png" alt="Full logo" class="footer">
+                <picture class="footer__logo">
+                    <source srcset="img/logo-green-small-1x.png 1x,img/logo-green-small-2x.png 2x" media="(max-width:37.5em)">
+                    <img srcset="img/logo-green-1x.png 1x,img/logo-green-2x.png 2x" alt="Full logo" class="footer">
+                </picture>
             </div>
             <div class="row">
                 <div class="col-1-of-2">
@@ -345,7 +348,7 @@
                     </p>
                     <a href="#" class="btn btn--green">Book now</a>
                 </div>
-            </div>
+            </div> 
         </div>
 
         <!-- <section class="grid-text">
